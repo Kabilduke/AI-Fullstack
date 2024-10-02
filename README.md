@@ -18,8 +18,43 @@ This project is a full-stack web application that integrates a FastAPI backend w
 - **Environment:** Python virtual environment
 
 ## Installation
+
+### Backend(FastAPI)
+
 1. Navigate to the backend directory:
    ```zsh
-   cd challenge/backend
+   cd AI-FullStack/Backend
    ```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Set up your environment variables in a .env file:
+   ```
+   API_KEY=your_api_key_here
+   ```
+4. Start the FastAPI server:
+   ```
+   uvicorn main:app --reload
+   ```
+   
+### Frontend (React)
+
+1. Navigate to the frontend directory:
+   ```
+   cd AI-FullStack/Frontend
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the React application:
+   ```
+   npm run dev
+   ```
+
+### Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
+   
+   
    
