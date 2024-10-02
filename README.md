@@ -1,6 +1,6 @@
 # AI Fullstack Home Service Chatbot
 
-This project is a full-stack web application that integrates a FastAPI backend with a React frontend to provide a chatbot for home service inquiries. Users can select a service category, ask questions, and fill out a form for further assistance.
+This project is a full-stack web application that integrates a FastAPI backend with a React+Vite frontend to provide a chatbot for home service inquiries. Users can select a service category, ask questions, and fill out a form for further assistance.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project is a full-stack web application that integrates a FastAPI backend w
 
 ## Technologies Used
 
-- **Frontend:** React
+- **Frontend:** React+Vite
 - **Backend:** FastAPI
 - **Database:** CSV file for data storage
 - **Environment:** Python virtual environment
@@ -38,7 +38,7 @@ This project is a full-stack web application that integrates a FastAPI backend w
    uvicorn main:app --reload
    ```
    
-### Frontend (React)
+### Frontend (React+Vite)
 
 1. Navigate to the frontend directory:
    ```
