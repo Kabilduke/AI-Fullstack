@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  text-align: start;
+}
+
+.selected h2{
+  margin: 30px;
+}
+
+.category-selector {
+  margin: 50px;
+}
+
+.category-selector ul {
+  list-style-type: none;
+  margin-right: 75%;
+}
+
+.category-selector li {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.category-selector li:hover {
+  background: rgb(21, 0, 96);
+  color: white;
+}
+
+/*------------------------------Chatbot Interface---------------------------------*/
