@@ -1,0 +1,31 @@
+Category ID,Category Name,Service ID,Question Funnel
+1,Gutters,100,What type of gutters are you interested in? > K-style | What is the nature of the service? > Install
+1,Gutters,101,What type of gutters are you interested in? > K-style | What is the nature of the service? > Repair
+1,Gutters,102,What type of gutters are you interested in? > Half-round | What is the nature of the service?> Install
+1,Gutters,103,What type of gutters are you interested in? > Half-round | What is the nature of the service?> Repair
+1,Gutters,104,What type of gutters are you interested in? > Box | What is the nature of the service?> Install
+1,Gutters,105,What type of gutters are you interested in? > Box | What is the nature of the service?> Repair
+2,Bathroom Remodeling,106,Does your bathroom remodel require removing or adding walls? > Yes | Do you want to install new tiles or reface? > Install new tiles
+2,Bathroom Remodeling,107,Does your bathroom remodel require removing or adding walls? > Yes | Do you want to install new tiles or reface? > Refacing
+2,Bathroom Remodeling,108,Does your bathroom remodel require removing or adding walls? > No | Do you want to install new tiles or reface? > Install new tiles
+2,Bathroom Remodeling,109,Does your bathroom remodel require removing or adding walls? > No | Do you want to install new tiles or reface? > Refacing
+3,Home Security,110,What type of security system are you looking for? > Smart | What is the nature of the installation? > Full installation
+3,Home Security,111,What type of security system are you looking for? > Smart | What is the nature of the installation? > Partial installation
+3,Home Security,112,What type of security system are you looking for? > Traditional | What is the nature of the installation? > Basic monitoring
+3,Home Security,113,What type of security system are you looking for? > Traditional | What is the nature of the installation? > Basic installation
+3,Home Security,114,What type of security system are you looking for? > Traditional | What is the nature of the installation? > Basic repair
+4,Concrete Work,115,What type of concrete work do you need? > Driveway | What is the nature of the service? > Resurface
+4,Concrete Work,116,What type of concrete work do you need? > Driveway | What is the nature of the service? > Full replacement
+4,Concrete Work,117,What type of concrete work do you need? > Patio | What is the nature of the service? > Resurface
+4,Concrete Work,118,What type of concrete work do you need? > Patio | What is the nature of the service? > Full replacement
+5,Landscaping,119,What type of landscaping service do you need? > Tree Trimming
+5,Landscaping,120,What type of landscaping service do you need? > Garden Design
+5,Landscaping,121,What type of landscaping service do you need? > Flowerbed Mowing
+5,Landscaping,122,What type of landscaping service do you need? > Garden Maintaining
+6,Electrical Work,123,Do you need electrical wiring upgrades? > Yes | What type of service do you need? > Upgrade to 220V
+6,Electrical Work,124,Do you need electrical wiring upgrades? > Yes | What type of service do you need? > Install new fixtures
+6,Electrical Work,125,Do you need electrical wiring upgrades? > No
+7,Plumbing,126,What type of plumbing service do you need? > Leak Repair
+7,Plumbing,127,What type of plumbing service do you need? > Drain Cleaning
+7,Plumbing,128,What type of plumbing service do you need? > Toilet Repair
+7,Plumbing,129,What type of plumbing service do you need? > Basin Repair
