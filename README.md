@@ -23,7 +23,7 @@ This project is a full-stack web application that integrates a FastAPI backend w
 
 1. Navigate to the backend directory:
    ```zsh
-   cd AI-FullStack/Backend
+   cd AI-FullStack
    ```
 2. Install dependencies:
    ```
