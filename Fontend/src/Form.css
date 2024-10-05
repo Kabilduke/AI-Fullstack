@@ -53,3 +53,10 @@ button{
     background: #724ea8;
     cursor: pointer;
 }
+
+.submit_msg{
+    color: purple;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
