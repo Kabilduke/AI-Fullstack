@@ -8,6 +8,7 @@ function App() {
   const [categories, setCategories] = useState([]);
   const [SelectedCategory, setSelectedCategory] = useState(null);
   const [showForm, setShowForm] = useState(false); // State to show/hide the form
+  const [successMessage, setSuccessMessage] = useState('');
 
   useEffect(() => {
     const fetchCategories = async () => {
@@ -49,12 +50,16 @@ function App() {
       if (response.ok) {
         const data = await response.json();
         console.log('Response from server:', data);
-        // Handle success message or redirect, etc.
+        setSuccessMessage('Form Submitted Successfully!');
+        setShowForm(false);
+        
       } else {
         console.error('Error submitting form:', response.statusText);
+        setSuccessMessage('Error submitting form. Please try again.');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
+      setSuccessMessage('Error submitting form. Please try again.');
     }
   };
 
@@ -73,16 +78,17 @@ function App() {
           </div>
         )}
       </div>
-
       {/* Chat Component */}
       <Chat category={SelectedCategory} setShowForm={setShowForm} />
-
       {/* Conditionally render the form based on the showForm state */}
       {showForm && (
         <div className="form-container">
           <Form SelectedCategory={SelectedCategory} onSubmit={handleFormSubmit} />
         </div>
       )}
+      <div className='submit_msg'>
+        {successMessage && <p>{successMessage}</p>}
+      </div>
     </div>
   );
 }
