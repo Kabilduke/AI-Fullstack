@@ -41,7 +41,7 @@ This project is a full-stack web application that integrates a FastAPI backend w
 ### Frontend (React+Vite)
 
 1. Navigate to the frontend directory:
-   ```
+   ```zsh
    cd AI-FullStack/Frontend
    ```
 2. Install dependencies:
