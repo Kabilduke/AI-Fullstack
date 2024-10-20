@@ -52,6 +52,10 @@ This project is a full-stack web application that integrates a FastAPI backend w
    ```
    npm run dev
    ```
+   
+Demo:
+![Model ShowCase:](https://github.com/Kabilduke/AI-Fullstack/blob/main/Demo%20Challenge%20Pic.png)
+
 
 ### Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
