@@ -14,7 +14,7 @@ This project is a full-stack web application that integrates a FastAPI backend w
 
 - **Frontend:** React+Vite
 - **Backend:** FastAPI
-- **Database:** CSV file for data storage
+- **Database:** Local Device (CSV file for data storage)
 - **Environment:** Python virtual environment
 
 ## Installation
